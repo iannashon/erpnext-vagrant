@@ -28,5 +28,11 @@ A preconfigured Vagrant Box focussed on ERPNext development.
 * Password: `password`
 
 #### MariaDB
+* Hostname: `127.0.0.1`
 * Username: `root`
 * Password: `password`
+
+#### SSH Access
+* Hostname: `192.168.33.20`
+* Username: `vagrant`
+* Password: `vagrant`

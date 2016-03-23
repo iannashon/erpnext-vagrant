@@ -25,7 +25,7 @@ A preconfigured Vagrant Box focussed on ERPNext development.
 3. If you installed Gulp then run `gulp watch` to automatically restart, if a `.py` file changes
 4. Go to `http://192.168.33.20:8000/`
 
-### Setting PyCharm for Frappe/* development
+### Setting PyCharm for Semilimes/* development
 1. Install the following plugins: Python Remote Interpreter, Remote Hosts Access, SSH Remote Run, Vagrant, .ignore, GitHub, BashSupport
 2. Set up Deployment over SSH:
     - Settings | Build, Execution, Deployment | Deployment

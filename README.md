@@ -11,11 +11,11 @@ A preconfigured Vagrant Box focussed on ERPNext development.
 ## Installation
 
 1. Clone this repository:
-    - In case of IntelliJ IDEA:
+    - In case of IntelliJ IDEA: or PyCharm
         1. Install "GitHub" plugin
         2. Go to VCS | Checkout from Version Control | GitHub, enter URL and directory names
     - In case of command line: `git clone git://github.com/semilimes/erpnext-vagrant.git ERPNext`
-2. Install Gulp: `npm install`
+2. Install Gulp: `npm install gulp`
 3. Run: `vagrant up`
 
 ## Usage

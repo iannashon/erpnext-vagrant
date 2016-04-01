@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd $1
-bench init bench --frappe-path https://github.com/semilimes/frappe.git --apps_path https://raw.githubusercontent.com/semilimes/bench/master/install_scripts/erpnext-apps.json
+bench init bench --frappe-branch develop --apps_path https://raw.githubusercontent.com/frappe/bench/master/install_scripts/erpnext-apps.json
 
 cd $1/bench
 bench new-site erpnext.dev --mariadb-root-password password --admin-password password
